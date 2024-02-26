@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Square shape -->
+<!--    <item android:id="@+id/square_shape">-->
+<!--        <shape android:shape="rectangle">-->
+<!--            <solid android:color="#FFFFFF" /> &lt;!&ndash; White color &ndash;&gt;-->
+<!--        </shape>-->
+<!--    </item>-->
+    <item android:bottom="20dp" android:right="20dp" android:id="@+id/rounded_corner_shape">
+        <shape android:shape="rectangle">
+            <!-- White color -->
+            <corners android:bottomLeftRadius="60dp" /> <!-- Adjust the radius to get the desired rounded effect -->
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/finalfoodbanner" />
+    </item>
+
+    <!-- Rounded corner shape -->
+
+</layer-list>

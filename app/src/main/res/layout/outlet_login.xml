@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logingradient">
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:id="@+id/bannerconstraintoutletlogin"
+                    android:layout_width="match_parent"
+                    android:layout_height="350dp"
+                    android:background="@drawable/roundcornerbackground"
+                    android:padding="16dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <TextView
+                        android:id="@+id/snackmatetextoutletlogin"
+                        android:layout_width="329dp"
+                        android:layout_height="113dp"
+
+                        android:layout_marginTop="64dp"
+                        android:fontFamily="@font/permanentmarker_regular"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="2"
+                        android:text="Snack'Mate"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"
+                        android:textStyle="bold"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+
+                        app:layout_constraintHorizontal_bias="0.507"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/outletlogin"
+                        android:layout_width="202dp"
+                        android:layout_height="59dp"
+                        android:layout_marginTop="4dp"
+                        android:outlineSpotShadowColor="@color/black"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="1"
+                        android:text="Log In"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+
+                        android:textSize="25sp"
+
+                        android:textStyle="bold"
+                        app:layout_constraintEnd_toEndOf="@+id/snackmatetextoutletlogin"
+                        app:layout_constraintHorizontal_bias="0.496"
+                        app:layout_constraintStart_toStartOf="@+id/snackmatetextoutletlogin"
+                        app:layout_constraintTop_toBottomOf="@+id/snackmatetextoutletlogin" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <LinearLayout
+                    android:id="@+id/linearLayoutoutletlogin"
+                    android:layout_width="363dp"
+                    android:layout_height="292dp"
+
+                    android:layout_marginTop="56dp"
+                    android:orientation="vertical"
+                    android:padding="18dp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.503"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/bannerconstraintoutletlogin"
+                    tools:ignore="MissingConstraints">
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginBottom="9dp"
+                        android:background="@color/white"
+                        app:cardCornerRadius="15dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/imagenameoutletlogin"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:alpha="0.2"
+                                android:src="@drawable/nameicon"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.053"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                            </ImageView>
+
+                            <EditText
+                                android:id="@+id/editnameoutletlogin"
+                                android:layout_width="288dp"
+                                android:layout_height="55dp"
+                                android:layout_marginEnd="16dp"
+                                android:background="@android:color/transparent"
+                                android:ems="8"
+                                android:hint="Outlet Name"
+                                android:inputType="text"
+                                android:padding="15dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.0"
+                                app:layout_constraintStart_toEndOf="@+id/imagenameoutletlogin"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.466" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginBottom="9dp"
+                        android:background="@color/white"
+                        app:cardCornerRadius="15dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/imageemailoutletlogin"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:alpha="0.2"
+                                android:src="@drawable/mail"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.054"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.6">
+
+                            </ImageView>
+
+                            <EditText
+                                android:id="@+id/editemailoutletlogin"
+                                android:layout_width="288dp"
+                                android:layout_height="55dp"
+                                android:layout_marginEnd="16dp"
+                                android:background="@android:color/transparent"
+                                android:ems="8"
+                                android:hint="Email or Phone No."
+                                android:inputType="text"
+                                android:padding="15dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.0"
+                                app:layout_constraintStart_toEndOf="@+id/imageemailoutletlogin"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.466" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="18dp"
+                        android:layout_marginBottom="9dp"
+                        android:background="@color/white"
+                        app:cardCornerRadius="15dp">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <ImageView
+                                android:id="@+id/imagepasswordoutletlogin"
+                                android:layout_width="25dp"
+                                android:layout_height="25dp"
+                                android:alpha="0.2"
+                                android:src="@drawable/passwordimage"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.054"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.6">
+
+                            </ImageView>
+
+                            <EditText
+                                android:id="@+id/editpasswordoutletlogin"
+                                android:layout_width="288dp"
+                                android:layout_height="55dp"
+                                android:layout_marginEnd="16dp"
+                                android:background="@android:color/transparent"
+                                android:ems="8"
+                                android:hint="Password"
+                                android:inputType="text"
+                                android:padding="15dp"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintEnd_toEndOf="parent"
+                                app:layout_constraintHorizontal_bias="0.0"
+                                app:layout_constraintStart_toEndOf="@+id/imagepasswordoutletlogin"
+                                app:layout_constraintTop_toTopOf="parent"
+                                app:layout_constraintVertical_bias="0.466" />
+
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                    <TextView
+                        android:id="@+id/forgotpasswordoutletlogin"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="16dp"
+                        android:text="Forgot your password?"
+                        android:textAlignment="center"
+
+                        android:textColor="@color/white"
+                        android:textSize="15sp"
+
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="0.167"
+                        app:layout_constraintStart_toStartOf="parent"
+                        tools:layout_editor_absoluteY="328dp" />
+
+
+                </LinearLayout>
+
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="183dp"
+                    android:layout_height="49dp"
+                    android:layout_marginTop="12dp"
+                    android:padding="16dp"
+                    app:cardCornerRadius="15dp"
+                    android:backgroundTint="@color/buttongreen"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.501"
+
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayoutoutletlogin">
+
+                    <TextView
+                        android:id="@+id/logintextoutletlogin"
+                        android:layout_width="103dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="LOG IN"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp"
+                        android:shadowColor="@android:color/holo_purple"
+                        android:shadowDx="2"
+                        android:shadowDy="2"
+                        android:shadowRadius="2"
+                        android:textStyle="bold" />
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
