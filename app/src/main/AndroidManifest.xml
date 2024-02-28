@@ -12,6 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SnackMate"
         tools:targetApi="31">
+
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+
+        <activity android:name=".main_login"
+            android:exported="false" />
+
+        <activity android:name=".main_register"
+            android:exported="false" />
+
+        <activity
+            android:name=".main_outlet_login"
+            android:exported="false" />
+
+        <activity
+            android:name=".main_outlet_register"
+            android:exported="false" />
+
+
         <activity
             android:name=".MainActivity"
             android:exported="true">

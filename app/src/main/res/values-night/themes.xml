@@ -1,9 +1,7 @@
-<resources>
-
-    <style name="Theme.SnackMate" parent="android:Theme.Material.Light.NoActionBar" >
-
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.SnackMate" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
         <item name="colorPrimary">#550091</item>
-        <item name="android:statusBarColor">#550091</item>
-        <item name="android:windowLightStatusBar">false</item>
     </style>
 </resources>
