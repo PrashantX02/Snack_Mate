@@ -10,4 +10,9 @@
     <!--    #1B581E-->
     <color name="buttongreen">#256A30</color>
     <color name="profilegrey">#6C6767</color>
+
+    <!-- prashant's colour-->
+
+    <color name="purple_prime">#550091</color>
+    <color name="silver">#DFDFDF</color>
 </resources>
