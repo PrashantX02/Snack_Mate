@@ -15,19 +15,19 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+       setContentView(R.layout.activity_main)
 
         img = findViewById<ImageView>(R.id.food_home);
 
         student = findViewById(R.id.student)
 
         student.setOnClickListener {
-            val intent = Intent(applicationContext,main_outlet_register :: class.java)
+            val intent = Intent(applicationContext,MainActivity2 :: class.java)
             startActivity(intent)
         }
-        val animations = AnimationUtils.loadAnimation(applicationContext, R.anim.top_down)
-        val bot_up = AnimationUtils.loadAnimation(applicationContext, R.anim.bottom_up)
-        img.startAnimation(animations)
+//        val animations = AnimationUtils.loadAnimation(applicationContext, R.anim.top_down)
+//        val bot_up = AnimationUtils.loadAnimation(applicationContext, R.anim.bottom_up)
+//        img.startAnimation(animations)
 
 
 //        val handler = Handler(Looper.getMainLooper())

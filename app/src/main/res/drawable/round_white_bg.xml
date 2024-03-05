@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<shape xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    android:shape="rectangle">-->
+<!--    <solid android:color="@android:color/white" /> &lt;!&ndash; Background color &ndash;&gt;-->
+<!--    <corners android:topLeftRadius="120dp" /> &lt;!&ndash; Top-left corner radius &ndash;&gt;-->
+
+<!--</shape>-->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Square shape -->
+    <!--    <item android:id="@+id/square_shape">-->
+    <!--        <shape android:shape="rectangle">-->
+    <!--            <solid android:color="#FFFFFF" /> &lt;!&ndash; White color &ndash;&gt;-->
+    <!--        </shape>-->
+    <!--    </item>-->
+    <item android:id="@+id/add_to_cart_rounded_corner_shape">
+        <shape android:shape="rectangle">
+            <!-- White color -->
+            <corners android:topLeftRadius="60dp" /> <!-- Adjust the radius to get the desired rounded effect -->
+        </shape>
+    </item>
+    <item>
+        <bitmap android:src="@drawable/white_bg"/>
+    </item>
+
+    <!-- Rounded corner shape -->
+
+</layer-list>
