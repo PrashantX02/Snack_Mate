@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         student = findViewById(R.id.student)
 
         student.setOnClickListener {
-            val intent = Intent(applicationContext,main_outlet_register :: class.java)
+            val intent = Intent(applicationContext,MainActivity2 :: class.java)
             startActivity(intent)
         }
         val animations = AnimationUtils.loadAnimation(applicationContext, R.anim.top_down)
