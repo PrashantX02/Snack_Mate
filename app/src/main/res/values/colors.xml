@@ -15,4 +15,7 @@
 
     <color name="purple_prime">#550091</color>
     <color name="silver">#DFDFDF</color>
+    <color name="gold">#B8860B</color>
+    <color name="background_purple">#550091</color>
+    <color name="light_backgrounf_purple">#7C40BE</color>
 </resources>
